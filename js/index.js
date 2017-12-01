@@ -135,7 +135,7 @@ function jiFen() {
 		$("#bigScore").innerHTML += "<img src='img/" + scoreStr[i] + ".jpg'/>";
 	};
 }
-//点击开始		
+//点击开始		撒啊啊
 	$(".btnstart").onclick=function(){
 		$("#bigScore").style.display="block";
 		$("#start").style.display="none";
