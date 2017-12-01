@@ -137,8 +137,8 @@ function jiFen() {
 }
 //点击开始		
 	$(".btnstart").onclick=function(){
-		$("#bigScore").style.display="block";
-		$("#狗狗开始游戏").style.display="none";
+		$("#开始游戏").style.display="开始游戏";
+		$("#开始游戏").style.display="开始游戏";
 		clearInterval(time1);
 		Abridmove(Abrid());
 		StartGame();
