@@ -137,8 +137,8 @@ function jiFen() {
 }
 //点击开始		
 	$(".btnstart").onclick=function(){
-		$("#开始游戏").style.display="开始游戏";
-		$("#开始游戏").style.display="开始游戏";
+		$("#bigScore").style.display="block";
+		$("#start").style.display="none";
 		clearInterval(time1);
 		Abridmove(Abrid());
 		StartGame();
